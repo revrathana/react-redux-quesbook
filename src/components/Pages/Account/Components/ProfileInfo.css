@@ -1,0 +1,68 @@
+.profile-group {
+  border-bottom: 1px solid rgba(25, 34, 48, 0.1);
+  padding: 30px;
+}
+.profile-group:first-of-type {
+  padding-top: 0px;
+}
+
+.profile-group .form-group {
+  width: 75%;
+}
+
+.avatar-content {
+  display: flex;
+  flex-flow: row nowrap;
+  margin-bottom: 30px;
+}
+
+.avatar-image {
+  flex: 1;
+}
+
+.avatar-options {
+  flex: 2;
+  display: flex;
+  flex-flow: column nowrap;
+  margin-left: 30px;
+}
+
+.avatar-options-text {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.test-information {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.info-test-content {
+  flex-direction: column;
+  background: rgba(185, 207, 243, 0.2);
+  padding: 30px 15px;
+  margin: 13px -15px;
+}
+
+.profile-field {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.profile-field-label {
+  height: 20px;
+  font-weight: bold;
+  line-height: 1.25;
+  text-align: left;
+  color: #373a3c;
+  font-size: 1.15em;
+}
+
+.profile-field .form-control {
+  width: 210px;
+  text-align: center;
+  border-radius: 5px;
+}

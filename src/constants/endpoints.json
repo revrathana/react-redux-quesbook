@@ -1,0 +1,50 @@
+{
+  "GET_USER": {
+    "url": "/user",
+    "version": "v1"
+  },
+  "GET_DIAGNOSTIC_STATUS": {
+    "url": "/diagnostic_status",
+    "version": "v1"
+  },
+  "PATCH_UPDATE_USER": {
+    "url": "/user",
+    "version": "v1"
+  },
+  "POST_SIGNOUT_USER": {
+    "url": "/user/sign_out",
+    "version": "v1"
+  },
+  "POST_TOTAL_TIME_ON_PLATFORM": {
+    "url": "/time_on_platform",
+    "version": "v1"
+  },
+  "GET_LAST_PAYMENT_TRANSACTION": {
+    "url": "/plan/last_plan_transaction",
+    "version": "v1"
+  },
+  "POST_UPDATE_PAYMENT_SOURCE": {
+    "url": "/update_credit_payment",
+    "version": "v1"
+  },
+  "PATCH_UPDATE_USER_PASSWORD": {
+    "url": "/user/password",
+    "version": "v1"
+  },
+  "POST_UPDATE_PLAN": {
+    "url": "/change_plan",
+    "version": "v1"
+  },
+  "POST_CANCEL_PLAN": {
+    "url": "/plan/cancel",
+    "version": "v1"
+  },
+  "POST_SEND_FEEDBACK": {
+    "url": "/feedback",
+    "version": "v1"
+  },
+  "": {
+    "url": "",
+    "version": "v1"
+  }
+}

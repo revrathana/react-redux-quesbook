@@ -1,0 +1,30 @@
+@import "../../../scss/_variables.scss";
+
+.menu {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  background-color: #213A62;
+  height: 50px;
+  z-index: 2;
+}
+
+.menu a {
+  font-family: Gotham A , Gotham B;
+  color: #ffffff75;;
+  font-weight: 700;
+}
+
+.menu a.active{
+  color: white;
+}
+
+.nav>li>a:hover, .nav>li>a:focus {
+  background-color: transparent;
+}
+
+.navbar-nav{
+  display: flex;
+  margin: 0px;
+}

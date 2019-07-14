@@ -1,0 +1,33 @@
+@import "../../../scss/_variables.scss";
+
+.subject_list {
+  position: relative;
+  max-width: 1060px;
+
+  .plan-card{
+    margin: 40px auto;
+
+    .plan-card-left{
+
+      .icon-container{
+
+        img{
+          width: 54px;
+        }
+      }
+
+      .plan-name{
+
+        h4{
+          font-family: "GothamRndSSm-Bold", Arial, sans-serif;
+          font-size: 1em;
+          font-weight: 400;
+        }
+      }
+
+      @media (max-width: $Small){
+        display: none;
+      }
+    }
+  }
+}

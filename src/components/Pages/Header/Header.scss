@@ -1,0 +1,71 @@
+@import '../../../scss/variables.scss';
+
+header{
+  @media (max-width: $mediaXlScreen){
+    font-size: 0.9em;
+  }
+  @media (max-width: $mediaTablet) {
+    font-size: 0.7em;
+  }
+}
+.navbar-default{
+  margin-bottom: 0px;
+}
+.navbar-brand img {
+  height: 24px;
+}
+.header-flex {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.current_test {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  color: #b9cff3;
+  font-family: "Gotham Narrow A", "Gotham Narrow B";
+  font-weight: bold;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.negative-spacer {
+  margin-top: -35px;
+}
+
+.navbar {
+  max-width: 1140px;
+  width: 100%;
+  margin: auto;
+  height: 50px;
+  background-color:white;
+  box-shadow: -10px 0px 18px rgba(0, 0, 0, 0.05), 7px -1px 17px rgba(0, 0, 0, 0.05);
+}
+
+.banner_wrapper{
+  max-width: 1140px;
+  height: 35px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #FCF6B3;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  p{
+    text-align: center;
+    margin: 0px;
+    font-size: 1.1em;
+
+    a{
+      color: black;
+      cursor: pointer;
+      text-decoration: underline;
+    }
+  }
+}

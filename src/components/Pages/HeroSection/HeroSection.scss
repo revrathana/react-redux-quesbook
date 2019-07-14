@@ -1,0 +1,184 @@
+.home_header{
+  position: relative;
+  display: flex;
+  margin-top: 20px;
+  height: 100%;
+}
+.home_content{
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  flex-basis: 75%;
+}
+
+.home_title{
+  position: relative;
+}
+.home_title h3{
+  text-align: center;
+  font-size: 26px;
+  color: white;
+}
+.home_description{
+  position: relative;
+  margin-top: 20px;
+}
+.home_description p{
+  max-width: 500px;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.science_header{
+  position: relative;
+  display: flex;
+}
+.science_content{
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  flex-basis: 75%;
+}
+.science_image {
+  position: relative;
+  flex-basis: 25%;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.science_title {
+  position: relative;
+}
+.science_title h3{
+  text-align: center;
+  font-size: 26px;
+  color: white;
+}
+.science_description {
+  position: relative;
+  margin-top: 20px;
+}
+.science_description p{
+  max-width: 500px;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.reading_header, .readingwriting_header{
+  position: relative;
+  display: flex;
+}
+.reading_content, .readingwriting_content {
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  flex-basis: 75%;
+}
+.reading_image, .readingwriting_image {
+  position: relative;
+  margin-top: 50px;
+  flex-basis: 25%;
+  text-align: center;
+}
+
+.reading_title, .readingwriting_title {
+  position: relative;
+}
+.reading_title h3, .readingwriting_title h3{
+  text-align: center;
+  font-size: 26px;
+  color: white;
+}
+.reading_description, .readingwriting_description {
+  position: relative;
+  margin-top: 20px;
+}
+.reading_description p, .readingwriting_description p{
+  max-width: 500px;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.math_header{
+  position: relative;
+  display: flex;
+}
+.math_content{
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  flex-basis: 75%;
+}
+.math_image{
+  position: relative;
+  margin-top: 50px;
+  flex-basis: 25%;
+  text-align: center;
+}
+
+.math_title{
+  position: relative;
+}
+.math_title h3{
+  text-align: center;
+  font-size: 26px;
+  color: white;
+}
+.math_description{
+  position: relative;
+  margin-top: 20px;
+}
+.math_description p{
+  max-width: 500px;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.english_header{
+  position: relative;
+  display: flex;
+}
+.english_content{
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  flex-basis: 75%;
+}
+.english_image{
+  position: relative;
+  margin-top: 50px;
+  flex-basis: 25%;
+  text-align: center;
+}
+
+.english_title{
+  position: relative;
+}
+.english_title h3{
+  text-align: center;
+  font-size: 26px;
+  color: white;
+}
+.english_description{
+  position: relative;
+  margin-top: 20px;
+}
+.english_description p{
+  max-width: 500px;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+

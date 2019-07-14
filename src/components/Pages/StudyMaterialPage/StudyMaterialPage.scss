@@ -1,0 +1,36 @@
+@import "../../../scss/_variables.scss";
+
+.article-title {
+  font-family: "GothamRndSSm-Medium";
+  font-weight: 700;
+  font-size: 2em;
+}
+
+.article-content {
+  font-family: "GothamRndSSm-Book"; 
+  font-weight: 400;
+}
+
+.article-content h2 {
+  font-family: "GothamRndSSm-Medium";
+  font-weight: 500;
+  font-size: 1.3em;
+}
+
+.article-content h1 {
+  font-family: "GothamRndSSm-Medium";
+  font-weight: 700;
+  font-size: 1.5em;
+}
+
+.section-studymat {
+  background-color: white;
+  max-width: 570px;
+  width: 100%;
+  padding: 10px;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}

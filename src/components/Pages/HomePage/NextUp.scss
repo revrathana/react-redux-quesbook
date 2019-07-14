@@ -1,0 +1,41 @@
+@import "../../../scss/variables.scss";
+
+.next_up_wrapper{
+  position: relative;
+  overflow-y: hidden;
+  .locked_wrapper{
+    margin-top: 30px;
+
+    .locked_container{
+      position: relative;
+      height: 177px;
+      width: 100%;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      z-index: 2;
+      background-image: url(../../../../img/background_blur.png);
+      background-size: 100% auto;
+      background-color: rgba(255,255,255,0.85);
+      font-size: 2rem;
+      color: #8A8A8A;
+  
+      .locked_content{
+        margin-top: 10px;
+        padding: 0px 40px;
+        font-size: 0.7em;
+      }
+  
+      @media (max-width: $Small) {
+        font-size: 1.5rem;
+      }
+    }
+  }  
+}
+
+.next_up_wrapper.next_up_added{
+  .topic-card{
+    filter: blur(1.5px);
+  }
+}

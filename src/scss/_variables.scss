@@ -1,0 +1,25 @@
+$white: #fff;
+$black: #000;
+$qbYellow: #faee67;
+$qbLightYellow: #fcf6b3;
+$midNight: #192230;
+$darkSky: #203a62;
+$sky: #5d90e3;
+$clearSky: #b9cff3;
+$borderGray: rgba(25, 34, 48, 0.1);
+
+$XLarge: 1200px;
+$Large: 992px;
+$Medium: 720px;
+$Small: 576px;
+
+$mediaXsPhone: 375px;
+$mediaPhone: 576px;
+$mediaTablet: 768px;
+$mediaDesktop: 992px;
+$mediaXlScreen: 1090px;
+
+::placeholder {
+    color: #192230;
+    opacity: 0.5;
+}

@@ -1,0 +1,67 @@
+.QbProgressBar{
+    position: relative;
+    width: 80px;
+    height: 100%;
+}
+.QbProgressBar .icon-container{
+    position: absolute;
+    width: 42px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 3px;
+    left: 19px;
+}
+.QbProgressBar .icon-container img{
+    width: 100%;
+    padding-top: 0px;
+}
+.CircularProgressbar .CircularProgressbar-text{
+    fill: #3e98c7;
+}
+.CircularProgressbar{
+    background-color:rgba(185, 207, 243, 0.15);;
+    border-radius: 50px;
+}
+.CircularProgressbar .CircularProgressbar-path{
+    stroke: rgba(93, 144, 227, 0.7);
+    stroke-width: 4px;
+}
+.CircularProgressbar .CircularProgressbar-trail{
+    stroke: rgba(93, 144, 227, 0.2);
+    stroke-width: 4px;
+}
+.level{
+  font-size: 13px;
+}
+
+.level_score {
+  font-size: 13px;
+  color: #5D90E3;
+}
+
+.lightBlueDot {
+  height: 75px;
+  width: 75px;
+  background-color:  #5D90E3;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.blueLock {
+  color: white;
+  font-size: 30px;
+  position: relative;
+  top: 20px;
+  left: 25px;
+}
+.dot {
+  height: 73.6px;
+  width: 73.6px;
+  background-color:  #5D90E3;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+

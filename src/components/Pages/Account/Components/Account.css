@@ -1,0 +1,106 @@
+.menu-bar {
+  position: relative;
+  width: 100%;
+  background-color: #213a62;
+  height: 50px;
+}
+
+.account-body-section {
+  display: flex;
+  flex-flow: row nowrap;
+  padding: 30px;
+}
+
+.account-nav {
+  flex: 1;
+  padding-right: 30px;
+}
+
+.account-body {
+  flex: 2;
+  padding: 20px 30px;
+  border: 1px solid rgba(25, 34, 48, 0.1);
+}
+
+.account-nav-list {
+  list-style-type: none;
+  font-size: 21.6px;
+  font-family: "Gotham A", "Gotham B";
+  padding: 0;
+  margin: 0;
+}
+
+.account-nav-list > li {
+  margin-bottom: 15px;
+}
+
+.account-nav-list > li > a {
+  color: #192230;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.account-nav-list-bold {
+  font-weight: bold;
+}
+
+.account-section-h5 {
+  display: inline-block;
+  margin: 0 0 30px 0;
+  font-family: "Gotham Narrow A", "Gotham Narrow B";
+  font-size: 1.5em;
+  font-weight: 700;
+  color: #192230;
+  border-bottom: 4px solid #faee67;
+  padding: 0 0.4rem;
+}
+
+.account-section-div {
+  border: 1px solid rgba(25, 34, 48, 0.1);
+  padding: 20px 30px 40px;
+}
+
+.account-section-row {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.account-section-col-left {
+  flex: 3;
+}
+
+.account-section-col-right {
+  flex: 1;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-end;
+}
+
+.account-cancellation-notice {
+  margin-left: 20px;
+  font-family: "Gotham Narrow A", "Gotham Narrow B";
+  font-size: 0.9em;
+}
+
+.password-field-label {
+  display: block;
+  height: 20px;
+  font-weight: bold;
+  line-height: 1.25;
+  text-align: left;
+  color: #373a3c;
+  font-size: 1.15em;
+}
+
+.change-password-button {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  flex: 1 1 0%;
+  font-family: "Gotham Narrow A", "Gotham Narrow B";
+}
+
+.form-group {
+  margin-bottom: 30px;
+}

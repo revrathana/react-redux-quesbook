@@ -1,0 +1,98 @@
+@import "../../../scss/_variables.scss";
+
+.diag_test_header {
+  text-align: center;
+  min-height: 370px;
+  position: relative;
+  padding-top: 47px;
+  max-width: 100%;
+}
+
+.prac_text_header{
+  font-family: GothamRndSSm-Medium;
+  font-size: 26px;
+
+  span{
+    text-transform: uppercase;
+  }
+}
+
+.composite_icon {
+  margin-top: -32px;
+  font-size: 16px;
+}
+
+.composite {
+  font-size: 16px;
+}
+
+.complete {
+  max-width: 760px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  font-family: GothamRndSSm-Book;
+  font-weight: normal;
+  font-size: 15px;
+}
+
+.topic-name{
+  padding-bottom: 10px;
+}
+
+.topic-name>h4{
+  font-weight: 700;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.topic-name > h4:after {
+  content: " ";
+  position: absolute;
+  width: calc( 100% + 32px );
+  left: -16px;
+  bottom: -6px;
+  height: 5px;
+  background: #FCF6B3;
+  border-radius: 3px;
+}
+
+.diag_btn a {
+  text-decoration: none;
+}
+
+.diag_btn {
+  margin-top: 42px;
+  margin-bottom: 42px;
+}
+
+.diag {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.blueDot {
+  height: 75px;
+  width: 75px;
+  background-color: #192B50;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+
+.scoreText {
+  color: white;
+  font-size: 30px;
+  position: relative;
+}
+
+.download_report {
+  position: relative;
+  top: 10px;
+  left: 350px;
+}

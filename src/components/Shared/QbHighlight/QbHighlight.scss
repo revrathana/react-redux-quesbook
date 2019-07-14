@@ -1,0 +1,12 @@
+@import "../scss/variables";
+
+mark {
+    color: #192230;
+    background-color: transparent;
+    padding: 0 0.4rem;
+    background-image: linear-gradient(to right, #faee67, #faee67);
+    background-position: 0 2.5rem;
+    background-repeat: repeat-x;
+    background-size: 1rem 0.4rem;
+    margin: 0 -0.4rem;
+}

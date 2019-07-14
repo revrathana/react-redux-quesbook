@@ -1,0 +1,47 @@
+// Colors
+$white: #fff;
+$black: #000;
+$qbYellow: #faee67;
+$qbLightYellow: #fcf6b3;
+$midNight: #192230;
+$darkSky: #203a62;
+$sky: #5d90e3;
+$clearSky: #b9cff3;
+$borderGray: rgba(25, 34, 48, 0.1);
+
+$mediaXsPhone: 375px;
+$mediaPhone: 576px;
+$mediaTablet: 720px;
+$mediaDesktop: 960px;
+
+$XLarge: 1200px;
+$Large: 992px;
+$Medium: 720px;
+$Small: 576px;
+
+$brand-primary: $darkSky;
+
+$btn-secondary-color:            $midNight;
+$btn-secondary-border:           $midNight;
+
+@mixin screen {
+    @media (max-width: $Small) {
+        max-width: none;
+    }
+
+    @media (min-width: $Small) {
+        max-width: 540px;
+    }
+
+    @media (min-width: $Medium) {
+        max-width: 720px;
+    }
+
+    @media (min-width: $Large) {
+        max-width: 960px;
+    }
+
+    @media (min-width: $XLarge) {
+        max-width: 1140px;
+    }
+}

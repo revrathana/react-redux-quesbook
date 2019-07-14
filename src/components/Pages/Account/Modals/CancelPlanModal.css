@@ -1,0 +1,178 @@
+/* @import "node_modules/quesbook-component/lib/scss/_variables"; */
+
+#change_plan_modal {
+  z-index: 99999;
+}
+
+#change_plan_modal > .modal-dialog {
+  max-width: 650px;
+}
+
+.planCard {
+  flex-direction: column;
+  border-radius: 0.25rem;
+  box-shadow: 0 1px 6px 0 rgba(25, 34, 48, 0.27);
+  margin-top: 30px;
+}
+
+.PlanCardWhite {
+  background-color: white;
+}
+
+.PlanCardSky {
+  background-color: #5d90e3;
+}
+
+.PlanCardDark {
+  background-color: #213a62;
+}
+
+.planCardContent {
+  padding: 15px;
+  background-color: white;
+  border-radius: 0 0 0.25rem 0.25rem;
+}
+
+.planCardContentSky {
+  background-color: #5d90e3;
+}
+
+.planCardContentDark {
+  background-color: #213a62;
+}
+
+.planCardImage img {
+  max-height: 60px;
+}
+
+.planCardTitle {
+  font-family: "Gotham Narrow A", "Gotham Narrow B";
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: rgb(255, 255, 255);
+  padding: 30px;
+  height: 135px;
+}
+
+.planCardPrice {
+  font-family: "Gotham Narrow A", "Gotham Narrow B";
+  font-size: 24px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: rgb(0, 0, 0);
+  padding: 20px;
+}
+
+.planCardPriceDark {
+  color: white;
+}
+
+.planCardPriceGrey {
+  color: #999;
+}
+
+.planCardButton {
+  border-radius: 2rem;
+  padding: 5px 10px 5px 10px;
+  font-family: "Gotham Narrow A", "Gotham Narrow B";
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+  text-align: center;
+  outline: none !important;
+  box-shadow: none;
+}
+
+.btnWhite {
+  background-color: white;
+  color: #5d90e3;
+}
+
+.btnSky {
+  background-color: #5d90e3;
+  color: white;
+}
+
+.currentPlanButton {
+  border: none;
+}
+
+.cornerRibbon {
+  font-size: 14px;
+  font-weight: bold;
+  width: 90px;
+  background: #ffc107;
+  position: absolute;
+  top: 40px;
+  left: -3px;
+  text-align: center;
+  letter-spacing: 1px;
+  color: black;
+  transform: rotate(-38deg);
+  -webkit-transform: rotate(-38deg);
+}
+
+.trialInfo {
+  background: #72b567;
+  padding: 15px;
+  margin-top: -15px;
+  margin-left: -30px;
+  margin-right: -30px;
+  color: white;
+  font-family: "Gotham Narrow A", "Gotham Narrow B";
+  font-size: 13px;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.planBottomInfo {
+  margin-top: 30px;
+}
+
+.planBottomInfoTitle {
+  font-family: "Gotham Narrow A", "Gotham Narrow B";
+  font-size: 21px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  margin-bottom: 20px;
+}
+
+.planFeatures {
+  padding: 20;
+}
+
+.planFeatures {
+  font-family: "Gotham Narrow A", "Gotham Narrow B";
+  font-size: 14px;
+  font-style: normal;
+  height: 50px;
+}
+
+.planFeaturesColumn > ul {
+  list-style: none;
+  padding: 0px;
+}
+
+.planFeaturesColumn > ul > li {
+  margin-bottom: 10px;
+}
+
+.planFeaturesColumn > ul li:before {
+  content: "✓";
+  color: #72b567;
+}
+
+.planDoneButton {
+  margin-top: 60px;
+  padding: 0px 100px 0px 100px;
+}

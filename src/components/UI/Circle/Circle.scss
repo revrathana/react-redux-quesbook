@@ -1,0 +1,152 @@
+@import "node_modules/quesbook-component/lib/scss/variables";
+// @import "../../scss/_variables.scss";
+
+.circle_wrapper {
+    align-items: center;
+    display: flex;
+    flex: 1;
+    position: relative;
+    justify-content: center;
+    margin: 15px;
+
+    @media (max-width: $mediaDesktop) {
+        align-items: center;
+        display: flex;
+        flex: 1;
+        position: relative;
+        justify-content: center;
+        margin: 15px;
+    }
+
+    @media (max-width: $mediaTablet) {
+        margin: 10px;
+    }
+
+    @media (max-width: $Small) {
+        width: 37%;
+    }
+}
+
+.circle_label {
+    align-items: center;        
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    z-index: 1;
+    
+    font-family: "Gotham Narrow A", "Gotham Narrow B";
+    font-size: 21px;
+    font-weight: bold;
+    height: 100%;
+    line-height: 1.1;
+    text-align: center;
+    color: #192230;
+
+    @media (max-width: $mediaDesktop) {
+        font-size: 16px;
+    }
+
+    .circle_icon{
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 40px;
+        width: 40px;
+
+        @media (max-width: $mediaPhone) {
+            display: none;
+        }
+    }
+
+    .circle_label_time{
+        width: 90px;
+        height: 20px;
+        display: flex;
+        justify-content: space-around;
+        color: rgba(0, 0, 0, 0.54);
+        font-weight: normal;
+        font-family: GothamRndSSm-Book;
+        margin-bottom: 12px;
+
+        .fa-stopwatch{
+            font-size: 13px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+        p{
+            font-size: 1.2rem;
+            vertical-align: middle;
+            margin-top: auto;
+            margin-bottom: auto;
+        }
+    }
+    .circle_icon.icon_english{
+        background-image: url("../../../../img/english.png");
+    }
+
+    .circle_icon.icon_reading{
+        background-image: url("../../../../img/reading.png");
+    }
+
+    .circle_icon.icon_math{
+        background-image: url("../../../../img/math.png");
+    }
+
+    .circle_icon.icon_science{
+        background-image: url("../../../../img/science.png");
+    }
+
+    .circle_label_content {
+        width: 100px;
+        padding: 13px 0;
+
+        @media (max-width: $mediaDesktop) {
+            padding: 0 0 10px 0;
+        }
+    }
+
+    .circle_label_start {
+        border-bottom: solid 1px rgba(24, 33, 47, 0.3);
+        font-weight: 100;
+        font-size: 1.1rem;
+
+        @media (max-width: $mediaPhone) {
+            font-size: 0.8125rem;
+        }
+    }
+}
+
+.circle_bg {
+    align-items: center;
+    background: white;
+    display: flex;
+    justify-content: center;
+    // position: absolute;
+    height: 1px;
+    width: 1px; 
+    border-radius: 50%;
+}
+
+.circle {
+    align-items: center;
+    background-color: #b9cff3;
+    border-radius: 50%;
+    box-shadow: 0 2px 40px -4px rgba(25, 34, 48, 0.27);
+    display: flex;
+    height: 100%;        
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    text-align: center;
+    z-index: 0;
+    padding-top: 8px;
+
+    @media (min-width: $mediaDesktop) {
+        height: 269px;
+        // padding-top: 8px;
+        width: 269px;
+    }
+}

@@ -1,0 +1,81 @@
+@import "../../../../scss/variables.scss";
+
+.skill-cards {
+  margin-top: 40px;
+}
+.skill-card{
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-wrap: wrap;
+  box-shadow: 0px 2px 20px rgba(25, 34, 48, 0.27);
+  border-radius: 10px;
+  margin: 20px auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.skill-card-left{
+  display: flex;
+  flex-basis: 80%;
+  padding: 15px 0px;
+
+  @media (max-width: $Small){
+    flex-basis: 100%;
+    padding: 0px;
+  }
+}
+.skill-name h4{
+  font-family: "GothamRndSSm-Medium", Arial, sans-serif;
+  font-size: 1.2em;
+  text-transform: capitalize;
+}
+.skill-description p{
+  font-family: "GothamRndSSm-Medium", Arial, sans-serif;
+  font-size: 1.2em;
+  color: (rgba(0, 0, 0, 0.54));
+}
+.skill-progress{
+  padding: 15px
+}
+.skill-name-description{
+  padding: 0px 15px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.skill-card-right{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-basis: 15%;
+  width: 15%;
+
+  a{
+    @media (max-width: $Small){
+      width: fit-content;
+    }
+  }
+
+  .skill-score{
+
+    p{
+      color: (rgba(0, 0, 0, 0.54));
+    }
+    @media (max-width: $Small){
+      margin-left: 0px;
+    }
+  }
+
+  @media (max-width: $Small){
+    flex-basis: 100%;
+    margin-left: 125px;
+  }
+}
+.skill-score{
+  width: 100px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 11px;
+  margin-top: 10px;
+}

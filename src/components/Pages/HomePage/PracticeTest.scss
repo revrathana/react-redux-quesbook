@@ -1,0 +1,76 @@
+@import "../../../scss/variables.scss";
+
+.practice_wrapper{
+  position: relative;
+  min-height: 160px;
+  background-color: $qbLightYellow;
+  background-image: url(../../../../img/yellow-shape.png);
+  padding: 40px 0px;
+
+  .practice_heading{
+    text-align: center;
+
+    h4{
+      font-weight: 700;
+    }
+  }
+  .practice_card_wrapper{
+    display: flex;
+    width: 70%;
+    margin: 40px auto;
+    justify-content: space-around;
+
+    @media (max-width: $XLarge){
+      width: 100%;
+    }
+
+    @media (max-width: $Small){
+      flex-wrap: wrap;
+    }
+
+  }
+  .collapse{
+    display: block;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 0px;
+    position: absolute;
+    left: 50%;
+    padding-bottom: 10px;
+    transform: translateX(-50%);
+
+    p{
+      margin-bottom: 3px;
+      padding-bottom: 15px;
+      color: rgba(0, 0, 0, 0.7);
+      cursor: pointer
+    }
+
+    p.collapse:after{
+      position: absolute;
+      content: " ";
+      border-top: 8px solid transparent;
+      border-bottom: 8px solid rgba(0, 0, 0, 0.7);;
+      border-left: 5px solid transparent;
+      border-right: 5px solid transparent;
+      display: block;
+      bottom: 6px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    p.expand:after{
+      position: absolute;
+      content: " ";
+      border-top: 8px solid rgba(0, 0, 0, 0.7);;
+      border-bottom: 8px solid transparent;
+      border-left: 5px solid transparent;
+      border-right: 5px solid transparent;
+      display: block;
+      bottom: 2px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+}

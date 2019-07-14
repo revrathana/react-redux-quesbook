@@ -1,0 +1,53 @@
+.hoverFillerSection {
+  position: absolute;
+  top: 0;
+  right: 11px;
+  height: 65px;
+  width: 325px;
+}
+
+.avatarMenu {
+  position: absolute;
+  top: 0px;
+  margin-top: 64px;
+  width: 325px;
+  height: auto;
+  background-color: white;
+  z-index: 100;
+  border-radius: 5px;
+  text-align: left;
+  border: 1px solid #eee;
+  font-family: "Gotham A", "Gotham B";
+}
+.avatarMenu > hr {
+  margin: 0;
+}
+
+.avatarMenuTitle {
+  font-weight: bold;
+  font-size: 0.55em;
+  color: rgb(32, 58, 98);
+  padding-bottom: 5px;
+}
+
+.avatarMenuOptions {
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 20px;
+}
+
+.avatarMenuOptions * {
+  padding: 0px;
+  font-size: 0.7em;
+  line-height: 27px;
+}
+
+.avatarMenuOptions > a {
+  cursor: pointer;
+  color: #333;
+}
+
+.avatarMenuOptions > a:hover {
+  color: #333;
+  text-decoration: none;
+}

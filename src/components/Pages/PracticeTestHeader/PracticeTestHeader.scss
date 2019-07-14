@@ -1,0 +1,50 @@
+.practice_test_header {
+  position: relative;
+  margin-top: 34px;
+  text-align: center;
+  width: 100%;
+  
+  .prac_text_header{
+    font-size: 26px;
+  }
+  
+  .composite {
+    font-size: 16px;
+    max-width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+
+  }
+  
+  .complete {
+    font-size: 15px;
+    color: #8A8A8A;
+  }
+  
+  .topic-name{
+    margin-top: 33px;
+    padding-bottom: 10px;
+  }
+  
+  .topic-name>h4{
+    font-weight: 700;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+  }
+  
+  .topic-name > h4:after {
+    content: " ";
+    position: absolute;
+    width: calc( 100% + 32px );
+    left: -16px;
+    bottom: -6px;
+    height: 5px;
+    background: #FCF6B3;
+    border-radius: 3px;
+  }
+}
+
+
