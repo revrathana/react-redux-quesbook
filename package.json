@@ -54,7 +54,7 @@
   },
   "dependencies": {
     "apollo-boost": "0.1.27",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "connected-react-router": "6.2.2",
     "credit-card-type": "^8.1.0",
     "creditcard": "^0.1.2",
